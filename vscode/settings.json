@@ -1,0 +1,60 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Moonlight II",
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "_----------------------------------------------------------------": "",
+  "editor.autoClosingQuotes": "never",
+  "editor.autoIndent": "keep",
+  "editor.autoSurround": "never",
+  "editor.codeLens": false,
+  // "editor.defaultFormatter": "octref.vetur", // IMPORTANT
+  "editor.detectIndentation": false,
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabSize": 2,
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/node_modules": true,
+    "**/.DS_Store": true
+  },
+  "files.associations": {
+    "*.html": "html"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "------------------------------------------------------------------": "",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.enable": true,
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.format.scriptInitialIndent": true,
+  "vetur.format.styleInitialIndent": true,
+  "vetur.trace.server": "messages",
+  "bracketPairColorizer.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}; opacity: 0.5"
+  ]
+  // "prettier.singleQuote": true,
+  // "prettier.trailingComma": "all",
+  // "prettier.vueIndentScriptAndStyle": true,
+  // "prettier.printWidth": 100,
+  // "prettier.quoteProps": "consistent",
+}

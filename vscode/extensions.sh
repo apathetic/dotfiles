@@ -1,0 +1,29 @@
+# generated via: `code --list-extension | xargs -L 1 echo code --install-extension`
+
+code --install-extension ahmadawais.shades-of-purple
+code --install-extension alexdima.copy-relative-path
+code --install-extension atomiks.moonlight
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension cssho.vscode-svgviewer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension HookyQR.beautify
+code --install-extension jaredkent.laserwave
+code --install-extension mhmadhamster.postcss-language
+code --install-extension mhutchie.git-graph
+code --install-extension ms-python.python
+code --install-extension ms-vscode.sublime-keybindings
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension octref.vetur
+code --install-extension oderwat.indent-rainbow
+code --install-extension PKief.material-icon-theme
+code --install-extension RobbOwen.synthwave-vscode
+code --install-extension ronnidc.nunjucks
+code --install-extension sdras.night-owl
+code --install-extension shanoor.vscode-nginx
+code --install-extension tombonnike.vscode-status-bar-format-toggle
+code --install-extension whizkydee.material-palenight-theme
+code --install-extension xabikos.JavaScriptSnippets

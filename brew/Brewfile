@@ -1,0 +1,64 @@
+# brew bundle
+
+# taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# CL applications
+brew "coreutils"
+brew "mas"
+brew "git"
+brew "ffmpeg"
+brew "jpegoptim"
+brew "libyaml"
+brew "node"
+brew "nginx"
+brew "pipenv"
+brew "pngcrush"
+brew "wget"
+brew "webp"
+brew "xz"
+brew "zlib"
+
+# GUI applications
+cask "1password"
+cask "brave-browser"
+cask "google-chrome"
+cask "opera"
+cask "figma"
+cask "firefox"
+cask "font-fira-code"
+cask "google-backup-and-sync"
+cask "handbrake"
+cask "pd-extended"
+cask "sketch"
+cask "slack"
+cask "spotify"
+cask "transmission"
+cask "vlc"
+cask "visual-studio-code"
+####  cask "java"
+# cask "sublime-text"
+# cask "wireguard-tools"
+
+# Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+
+
+# Mac App Store applications
+mas "Magnet", id: 441258766
+mas "Xcode", id: 497799835
+mas "Transmit 5", id: 1436522307
+mas "Pages", id: 409201541
+
+

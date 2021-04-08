@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# # Install
+# set -e
+
+# DEFAULT_CONFIG="default.conf.yaml"
+# DOTBOT_DIR="dotbot"
+# DOTBOT_BIN="bin/dotbot"
+# BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# cd "${BASEDIR}"
+# git submodule update --init --recursive "${DOTBOT_DIR}"
+
+# "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${DEFAULT_CONFIG}"
+
+
+
+dirname="$(dirname "$0")"
+
+if ! command -v brew >/dev/null; then
+  echo "==> Installing Homebrew ..."
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+fi
+
+echo "==> Install Homebrew dependencies"
+cd brew
+brew bundle
+cd ..
+
+echo "==> Updating MacOS preferences"
+# ./.macos
+
+
+echo "==> Updating shell to ZSH"
+# cp ./zsh/* $HOME/
+
+
+echo "==> Updating IDE settings"
+# cd vscode
+# ./extensions.sh
+# cp settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+
