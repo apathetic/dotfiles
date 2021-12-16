@@ -4,6 +4,19 @@ mkcd () {
   cd "$1"
 }
 
+
+# "ssh" into docker container
+db() {
+  if [ $# -ne 1 ]; then
+    echo "Usage: $FUNCNAME CONTAINER_ID"
+    return 1
+  fi
+
+  docker exec -it $1 /bin/bash
+}
+
+
+# load node per project folder
 load-nvmrc() {
   local node_version="$(nvm version)"
   local nvmrc_path="$(nvm_find_nvmrc)"
@@ -21,5 +34,3 @@ load-nvmrc() {
     nvm use default
   fi
 }
-
-

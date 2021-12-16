@@ -1,0 +1,14 @@
+alias grep="grep --color"
+alias c="clear"
+alias t='top -U <username> -O cpu -n 10'
+alias ps='ps -fx'
+alias p='ping www.google.com'
+alias net='lsof -i ":80"'
+alias ip="ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'"
+alias server='python -m SimpleHTTPServer'
+
+alias digital='ssh xxx@104.131.xxx.xxx'
+alias router='ssh xxx@192.168.1.1'
+
+alias chrome='"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --allow-running-insecure-content --disable-web-security --user-data-dir=/tmp/chrome-dev'
+alias ff='/Applications/Firefox.app/Contents/MacOS/firefox-bin -no-remote -purgecaches -P dev &'

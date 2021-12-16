@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.paths: zsh/paths-macos
+    ~/.aliases-os: zsh/aliases-macos
+    ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings: sublime/Preferences.sublime-settings
+    ~/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings: sublime/JavaScript.sublime-settings
+    ~/Library/Application Support/Sublime Text 3/Packages/User/Vue Component.sublime-settings: sublime/Vue Component.sublime-settings
+    ~/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings: sublime/Package Control.sublime-settings
+    ~/Library/Preferences/com.googlecode.iterm2.plist: iterm2/com.googlecode.iterm2.plist

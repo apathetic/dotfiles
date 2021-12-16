@@ -10,9 +10,9 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
 code --install-extension HookyQR.beautify
+code --install-extension JamesBirtles.svelte-vscode
 code --install-extension jaredkent.laserwave
 code --install-extension mhmadhamster.postcss-language
-code --install-extension mhutchie.git-graph
 code --install-extension ms-python.python
 code --install-extension ms-vscode.sublime-keybindings
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin

@@ -1,0 +1,97 @@
+# brew bundle
+
+# taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# CL applications
+brew "coreutils"
+brew "git"
+brew "ffmpeg"
+brew "jpegoptim"
+brew "libyaml"
+brew "mas"
+brew "node"
+brew "nginx"
+brew "pipenv"
+brew "pngcrush"
+brew "svg" # for fonts, below
+brew "wget"
+brew "webp"
+brew "xz"
+brew "zlib"
+brew "sqlite"
+brew "unrar"
+brew "x264"
+brew "x265"
+
+# GUI applications
+cask "ableton-live-suite"
+cask "appcleaner"
+cask "brave-browser"
+cask "cycling74-max"
+cask "figma"
+cask "firefox"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "google-drive"
+cask "handbrake"
+cask "iterm2"
+cask "mullvadvpn"
+cask "opera"
+cask "sketch"
+cask "slack"
+cask "spotify"
+cask "transmission"
+cask "vlc"
+cask "visual-studio-code"
+
+
+# Fonts
+cask "font-fira-code"
+cask "font-lato"
+cask "font-open-sans"
+cask "font-roboto"
+cask "font-source-code-pro-for-powerline"
+cask "font-source-code-pro"
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+
+
+# Mac App Store applications
+mas "Magnet", id: 441258766
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
+mas "Transmit 5", id: 1436522307
+mas "Pages", id: 409201541
+mas "Spark Email App", id: 1176895641
+mas "Logic Pro", id: 634148309
+mas "Final Cut Pro", id: 424389933
+
+
+# MISC
+
+# logi Options (https://www.logitech.com/en-us/product/options)
+# SV-1 Piano app (https://www.korg.com/us/support/download/software/0/240/1428/)
+# MOTU stuffs (https://motu.com/en-us/download-center/download/60)
+#             (https://motu.com/en-us/download-center/download/471)
+# Photoshop
+# Sibelius (get stuffs --> midi)
+
+# $ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# openEmu
+#   Tetris/pacman
+# battle.net
+#   Diablo III
+#   Starcraft II
+# Steam
+#   mini motorways
+#   Civ VI
+#   Divinity
+#   Borderlands II
+#   bioshock

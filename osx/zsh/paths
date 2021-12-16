@@ -1,0 +1,27 @@
+export ZSH=$HOME/.oh-my-zsh
+
+
+# theme
+export CLICOLOR=1
+fpath+=$HOME/.zsh/pure
+
+
+# nvm
+export NVM_HOME=/Users/whatch/.nvm
+export PATH=${PATH}:${NVM_HOME}
+
+
+# java
+export PATH="$PATH:$HOME/.jenv/bin"
+
+
+# python
+# export WORKON_HOME=$HOME/.virtualenvs
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+# export PATH="$HOME/.pyenv/bin:$PATH"
+# export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+
+# go
+export GOPATH=$HOME/.go
+export PATH=$PATH:$GOPATH/bin

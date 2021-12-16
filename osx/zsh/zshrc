@@ -1,0 +1,50 @@
+# ohmyzsh opts
+ZSH_THEME=""
+DISABLE_AUTO_UPDATE="true"
+
+
+# plugins
+plugins=(
+  colored-man-pages
+  colorize
+  git
+  docker
+  docker-compose
+  extract
+  node
+  nvm
+  z
+)
+
+
+# stuffs
+source ~/.zsh/aliases
+source ~/.zsh/functions
+source ~/.zsh/paths
+
+
+# custom configs
+source ${ZSH}/oh-my-zsh.sh
+# source ${NVM_HOME}/nvm.sh
+# source "$HOME/.cargo/env"
+
+
+## autoloads (ie. things to lazy load)
+autoload -Uz promptinit
+autoload -Uz compinit
+autoload -Uz add-zsh-hook
+
+
+## shell extensions
+promptinit
+prompt pure
+# add-zsh-hook chpwd
+# load-nvmrc
+
+
+# eval "$(jenv init -)"
+# eval "$(jira --completion-script-bash)"
+# eval "$(thefuck --alias)"
+# eval "$(direnv hook zsh)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
